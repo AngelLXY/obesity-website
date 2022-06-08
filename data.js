@@ -25,11 +25,11 @@ var navbarArr=[
         title:"In the Press",
         link:"news.html"
     },
-    {
-        id:"5",
-        title:"About",
-        link:"about.html"
-    }
+    // {
+    //     id:"5",
+    //     title:"About",
+    //     link:"about.html"
+    // }
 ]
 
 var causesCardsArr=[
