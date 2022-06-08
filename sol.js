@@ -22,7 +22,7 @@ for(ii=0;ii<studentsolArr.length;ii++){
     // create solImg  
     var solImg=document.createElement('img')
     solImg.setAttribute('src',img)
-    solImg.setAttribute('class','d-block mx-lg-auto img-fluid')
+    solImg.setAttribute('class','d-block mx-lg-auto img-fluid stusolimg shadow')
     solImg.setAttribute('width','700')
     solImg.setAttribute('height','500')
     solImg.setAttribute('loading',"lazy")

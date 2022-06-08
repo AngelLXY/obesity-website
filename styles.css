@@ -6,13 +6,28 @@
 
 }
 
+.nav-container {
+    display: flex;
+    align-items: center;
+}
+
+.weblogo {
+    height: 60px;
+    width: 60px;
+    
+}
+.carouselimg {
+    height: 80vh;
+    width: 100vw;
+    object-fit: cover;
+}
 
 a.card {
    color: pink;
     text-decoration: none;
 }
 .section{
-
+ 
 }
 .section.cards{
     padding-top: 40px;
@@ -58,6 +73,13 @@ a.card {
     margin: 0!important
 }
 
+.causeimg{
+    height: 30vh !important;
+    width: 100% !important;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
 #sol-411,
 #sol-412,
 #sol-413,
@@ -65,6 +87,13 @@ a.card {
     background-color: #efefef;
 }
 
+.stusolimg {
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    
+}
 a.card-body{
     color: black!important;
 }
@@ -90,13 +119,13 @@ a.card-body{
 }
 
 #image-effect-section-1 {
-    height: 50vh;
-    background-image: url('https://picsum.photos/1000/500');
+    height: 60vh;
+    background-image: url(./picsrc/bgpic.jpg);
     /* background-position:  */
     background-attachment: fixed;
     background-size:cover;
+   
 }
-
 
 .section-title {
     padding-bottom: 30px;

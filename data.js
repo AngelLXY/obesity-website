@@ -34,27 +34,27 @@ var navbarArr=[
 
 var causesCardsArr=[
     {
-        id:"311",
+        id:"cause311",
         title:"Lack of Exercise",
         text:"When we consume large amount of calories without burning them off through physical activities, the surplus energy will be stored in body as fat which causes obesity.",
         link:"causeex.html",
-        img:'https://picsum.photos/20/20',
+        img:"./picsrc/lackofexercise.jpg",
         btn:"click"
     },
     {
-        id:"312",
+        id:"cause312",
         title:"Lack of Sleep",
         text:"Sleep deprivation alters the production of hormones that regulate your appetite. You will feel hungry more often when you lack sleep and hence consume more calories.",
         link:"https://www.sleepfoundation.org/physical-health/obesity-and-sleep#:~:text=Sleep%20loss%20creates%20a%20hormone,creates%20increased%20feelings%20of%20hunger.",
-        img:'https://picsum.photos/20/20',
+        img:'./picsrc/lackofsleeppic.jpg',
         btn:"click"
     },
     {
-        id:"313",
+        id:"cause313",
         title:"Unhealthy Diet",
         text:"When people indulge themselves in fast foods which are fat in sugar, fats, and salt, this leads them directly to increasing weight.",
         link:"https://www.cdc.gov/chronicdisease/resources/publications/factsheets/nutrition.htm",
-        img:"https://picsum.photos/20/20",
+        img:"./picsrc/unhealthydietpic.jpg",
         btn:"click"
     }
 ]
@@ -179,19 +179,19 @@ var studentsolArr=[
         id:"4141",
         title:"'Eat Your Greens'Application",
         text:"This application allows users to get Auto-generated nutritional plan with support of registered dietitian nutritionists. It also creates a supportive healthy-eating community for participants. A 365 days checklist is provided for the users to allow them to self-check whether they are eating healthily or not.",
-        img:"https://picsum.photos/30/30"
+        img:"./picsrc/greenspic.jpg"
     },
     {
         id:"4142",
         title:"VR Motivator",
         text:"this product is to motivate adolescents to find the will to start or continue staying committed to exercise by making exercise more entertaining through games and helping them find sports partner; they have the option of exercising within their own comfort space, especially if they are self-conscious of being in public areas.",
-        img:"https://picsum.photos/30/30"
+        img:"./picsrc/VRpic.jpg"
     },
     {
         id:"4143",
         title:"Healthival",
         text:"The objective of Healthival is to get more exposure for healthier food choices and encourage Singaporeans to consume healthier choices.",
-        img:"https://picsum.photos/30/30"
+        img:"./picsrc/carnivalpic.jpg"
     }
 ]
 var causeexArr=[

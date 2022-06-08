@@ -50,7 +50,7 @@ for(ii=0;ii<causesCardsArr.length;ii++){
   card.setAttribute('class','card')
   card.setAttribute('id','causecard-'+id)
   var cardimg=document.createElement('img')
-  cardimg.setAttribute('class','card-img-top')
+  cardimg.setAttribute('class','card-img-top causeimg')
   cardimg.setAttribute('src',img)
   var cardBody=document.createElement('div')
   cardBody.setAttribute('class','card-body')

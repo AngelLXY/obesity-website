@@ -1,83 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8"> 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="./picsrc/weblogo.svg" />
     <title>Obesity</title>
-</head>
-<body>
-  <div>
-    <!-- navbar -->
-    <div id="navbar-container">
-        <div class="container">
+  </head>
+  <body>
+    <div>
+      <!-- navbar -->
+      <div id="navbar-container">
+        <div class="container nav-container">
+          <img src="./picsrc/weblogo.svg" class="weblogo" />
           <ul id="navbar-target" class="nav nav-tabs"></ul>
         </div>
-    </div>
-    <div id="carousel-container">
-        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="10000" id='carousel1'>
-                <img src="https://picsum.photos/200/100" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h3>Are You Healthy?</h3>
-                  <p>A BMI calculator for you to know whether you are healthy or not.</p>
-                  <a type="button" class="btn btn-light" href="cal.html">Click for More</a>
-                </div>
-              </div>
-              <div class="carousel-item" data-bs-interval="2000" id='carousel2'>
-                <img src="https://picsum.photos/200/100" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h3>Easy Ways to Start a Healthy Lifestyle</h3>
-                  <p>Being healthy is not as hard as you think it is.</p>
-                  <button type="button" class="btn btn-light">Click for More</button>
-                </div>
-              </div>
-              <div class="carousel-item" id='carousel3'>
-                <img src="https://picsum.photos/200/100" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h3>Top 5 Healthy Places to Dine in in Singapore</h3>
-                  <p>Some representative placeholder content for the third slide.</p>
-                  <a type="button" class="btn btn-light" href="map.html">Click for More</a>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>  
-    </div>
-    <div id="causes-cards" class="causes cards section" >
-      <div  class="container">
-        <div class="section-title">
-          <h2> CAUSES </h2>
-        </div>
-        <div id="causes-cards-target" class='row'></div>
       </div>
-    </div> 
-    <div id='image-effect-section-1' class="section"></div>
-    <div id="solutions-cards" class="solutions cards section" >
-      <div class="container">
-        <div class="section-title">
-          <h2> SOLUTIONS </h2>
+      <div id="carousel-container">
+        <div
+          id="carouselExampleDark"
+          class="carousel carousel-dark slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div
+              class="carousel-item active"
+              data-bs-interval="10000"
+              id="carousel1"
+            >
+              <img
+                src="./picsrc/calculatorpic.jpg"
+                class="d-block w-100 carouselimg"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Are You Healthy?</h3>
+                <p>
+                  A BMI calculator for you to know whether you are healthy or
+                  not.
+                </p>
+                <a type="button" class="btn btn-light" href="cal.html"
+                  >Click for More</a
+                >
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000" id="carousel2">
+              <img
+                src="./picsrc/healthywayspic.jpg"
+                class="d-block w-100 carouselimg"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Easy Ways to Start a Healthy Lifestyle</h3>
+                <p>Being healthy is not as hard as you think it is.</p>
+                <button
+                  type="button"
+                  class="btn btn-light"
+                  href="https://www.oakbendmedcenter.org/2018/05/23/14-steps-to-a-healthy-lifestyle/"
+                >
+                  Click for More
+                </button>
+              </div>
+            </div>
+            <div class="carousel-item" id="carousel3">
+              <img
+                src="./picsrc/healthyfoodpic.jpg"
+                class="d-block w-100 carouselimg"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Top 5 Healthy Places to Dine in in Singapore</h3>
+                <p>
+                  Some representative placeholder content for the third slide.
+                </p>
+                <a type="button" class="btn btn-light" href="map.html"
+                  >Click for More</a
+                >
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <div id="solutions-cards-target" class="row"></div>
       </div>
-    </div>
+      <div id="causes-cards" class="causes cards section">
+        <div class="container">
+          <div class="section-title">
+            <h2>CAUSES</h2>
+          </div>
+          <div id="causes-cards-target" class="row"></div>
+        </div>
+      </div>
+      <div id="image-effect-section-1" class="section"></div>
+      <div id="solutions-cards" class="solutions cards section">
+        <div class="container">
+          <div class="section-title">
+            <h2>SOLUTIONS</h2>
+          </div>
+          <div id="solutions-cards-target" class="row"></div>
+        </div>
+      </div>
 
-    <!-- <div id="causes-cards" class="causes cards xcontainer">
+      <!-- <div id="causes-cards" class="causes cards xcontainer">
       <div id=""causes-cards-targer class="container">
 
       </div>
@@ -112,7 +181,7 @@
           </div>
     </div> -->
 
-    <!-- <div class="card" style="width: 18rem;">
+      <!-- <div class="card" style="width: 18rem;">
       <div class="card-body">
         <h5 class="card-title">SpecialS title treatment</h5>
         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
@@ -120,10 +189,15 @@
       </div>
     </div> -->
 
-    <script src="data.js"></script>
-    <script src="menu.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src="app.js"></script>
-  </div>
-</body>
+      <script src="data.js"></script>
+      <script src="menu.js"></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"
+      ></script>
+      <script src="causeex.js"></script>
+      <script src="app.js"></script>
+    </div>
+  </body>
 </html>
