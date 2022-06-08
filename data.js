@@ -24,7 +24,7 @@ var navbarArr=[
         id:"4",
         title:"In the Press",
         link:"news.html"
-    },
+    }
     // {
     //     id:"5",
     //     title:"About",
